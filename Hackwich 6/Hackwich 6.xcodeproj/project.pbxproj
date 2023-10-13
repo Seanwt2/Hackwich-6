@@ -16,6 +16,7 @@
 		786F63272AD6651300A7DCDB /* Hackwich_6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F63262AD6651300A7DCDB /* Hackwich_6Tests.swift */; };
 		786F63312AD6651300A7DCDB /* Hackwich_6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F63302AD6651300A7DCDB /* Hackwich_6UITests.swift */; };
 		786F63332AD6651300A7DCDB /* Hackwich_6UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F63322AD6651300A7DCDB /* Hackwich_6UITestsLaunchTests.swift */; };
+		786F637E2AD93CDA00A7DCDB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F637D2AD93CDA00A7DCDB /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		786F632C2AD6651300A7DCDB /* Hackwich 6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hackwich 6UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		786F63302AD6651300A7DCDB /* Hackwich_6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackwich_6UITests.swift; sourceTree = "<group>"; };
 		786F63322AD6651300A7DCDB /* Hackwich_6UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackwich_6UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		786F637D2AD93CDA00A7DCDB /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				786F63112AD6651000A7DCDB /* SceneDelegate.swift */,
 				786F63132AD6651000A7DCDB /* ViewController.swift */,
 				786F63152AD6651000A7DCDB /* Main.storyboard */,
+				786F637D2AD93CDA00A7DCDB /* ViewController2.swift */,
 				786F63182AD6651200A7DCDB /* Assets.xcassets */,
 				786F631A2AD6651200A7DCDB /* LaunchScreen.storyboard */,
 				786F631D2AD6651300A7DCDB /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				786F63142AD6651000A7DCDB /* ViewController.swift in Sources */,
+				786F637E2AD93CDA00A7DCDB /* ViewController2.swift in Sources */,
 				786F63102AD6651000A7DCDB /* AppDelegate.swift in Sources */,
 				786F63122AD6651000A7DCDB /* SceneDelegate.swift in Sources */,
 			);
