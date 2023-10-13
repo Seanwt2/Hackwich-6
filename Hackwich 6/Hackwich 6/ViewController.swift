@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
    
     //var
     var myFriendsArray = ["Chris","Christina","Emma"]
-    
+    var myfriendsHomeArray = ["Mililani Mauka", "Mililani Mauka", "Mililani Mauka"]
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -33,6 +33,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         {//*only needs one of these^ dont copy paste the whole thing again
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
                        let text = myFriendsArray[indexPath.row]
+        cell.detailTextLabel?.text = myfriendsHomeArray[indexPath.row]
                        cell.textLabel?.text = text
                        return cell
           }
